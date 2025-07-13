@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grade Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📘 Grade Checker</h1>
+
+    <form id="gradeForm">
+      <label>Total Marks:</label>
+      <input type="number" id="totalMarks" required>
+
+      <label>Obtained Marks:</label>
+      <input type="number" id="obtainedMarks" required>
+
+      <button type="submit">Check Grade</button>
+      <button type="reset" class="reset">Reset</button>
+    </form>
+
+    <div class="result-box" id="resultBox" style="display: none;">
+      <p id="percentageText"></p>
+      <p id="gradeText"></p>
+      <div class="progress-bar">
+        <div class="fill" id="progressFill"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
