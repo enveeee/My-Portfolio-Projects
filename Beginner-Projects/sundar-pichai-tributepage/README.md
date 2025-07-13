@@ -56,4 +56,8 @@ This project helped me practice:
 -Custom styling and hover transitions
 -UI/UX design concepts
 
+<<<<<<< HEAD
 🧑‍💻 Created by Sanskruti Pramod Varade
+=======
+🧑‍💻 Created by Sanskruti Pramod Varade
+>>>>>>> 312efc7 (Add screenshots and README for Sundar Pichai Tribute Page)
