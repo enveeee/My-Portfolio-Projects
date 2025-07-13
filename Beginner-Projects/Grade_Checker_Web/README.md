@@ -25,7 +25,7 @@ A beautiful, interactive web application that calculates percentage and assigns 
 
 Just open `index.html` in your browser — or deploy it on GitHub Pages.
 
-## 🔗 Live Preview (Optional)
+## 🔗 Live Preview 
 To be added when deployed.
 
 ## ✍️ Author
