@@ -36,7 +36,9 @@ sundar-pichai-tribute/
 
 ## 📸 Screenshot
 
-![Sundar Tribute Screenshot](assets/sundar.jpg)
+![Sundar Tribute Screenshot] :
+![Screenshot 1](assets/ss1.png)
+![Screenshot 2](assets/ss2.png)
 
 ## 📥 How to Use
 
