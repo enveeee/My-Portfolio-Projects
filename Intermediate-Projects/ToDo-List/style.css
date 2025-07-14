@@ -1,0 +1,173 @@
+/* RESET + BASE */
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.3s ease;
+}
+body {
+  background-color: #faf8ff;
+  margin: 0;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+/* DARK MODE */
+body.dark {
+  background-color: #1e1e2f;
+  color: #f5f5f5;
+}
+
+/* CONTAINER */
+.container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(180, 148, 255, 0.2);
+  width: 90%;
+  max-width: 500px;
+}
+
+body.dark .container {
+  background: #2a2a40;
+}
+
+/* HEADING */
+h1 {
+  text-align: center;
+  color: #5a4b81;
+  margin-bottom: 20px;
+}
+body.dark h1 {
+  color: #ffccf9;
+}
+
+/* INPUT SECTION */
+.input-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, select {
+  flex: 1 1 auto;
+  padding: 10px;
+  border: 1px solid #d7b9f7;
+  border-radius: 12px;
+  outline: none;
+  font-size: 14px;
+}
+
+body.dark input, body.dark select {
+  background-color: #3a3a52;
+  color: #fff;
+  border: 1px solid #999;
+}
+
+/* BUTTONS */
+button {
+  padding: 10px 16px;
+  background-color: #d8b4f8;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 500;
+}
+button:hover {
+  background-color: #c084fc;
+}
+body.dark button:hover {
+  background-color: #bb86fc;
+}
+
+/* FILTER BUTTONS */
+.filter-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+/* TASK LIST */
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  background: #fdf1f9;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: fadeIn 0.3s ease;
+}
+
+body.dark li {
+  background-color: #3f3f59;
+}
+
+li.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* DARK MODE TOGGLE */
+.toggle-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 26px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  cursor: pointer;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px; width: 20px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+input:checked + .slider {
+  background-color: #a279bb;
+}
+input:checked + .slider:before {
+  transform: translateX(24px);
+}
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+  .input-section {
+    flex-direction: column;
+  }
+  button {
+    width: 100%;
+  }
+}
