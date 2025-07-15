@@ -58,7 +58,7 @@ Vanilla JavaScript logic implementation
 Sanskruti Pramod Varade
 📍 Nashik, Maharashtra, India
 🎓 M.Sc. Computer Science
-🌐 GitHub Profile
+🌐 GitHub : enveeee
 
 💖 Acknowledgement
 This project is a creative pastel-themed web app built with love for personal learning and portfolio use.
