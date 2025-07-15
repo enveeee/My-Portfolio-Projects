@@ -1,0 +1,4 @@
+121,The Psychology of Money,Morgan Housel,true
+120,Atomic Habits,James Clear,false
+122,The Art of Being Alone,Renuka Gavrani,true
+100,The Subtle Art of Not Giving a Fuck,Mark Manson,false
